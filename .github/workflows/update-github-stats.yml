@@ -25,7 +25,7 @@ jobs:
         uses: cicirello/user-statistician@v1
         with:
           image-file: github-stats.svg
-          custom-title: GitHub Activity & Stats
+          custom-title: GitHub Activity and Stats
           colors: "#ffffff #d0d7de #0797b6 #17324d #536579"
           max-languages: 8
           hide-keys: joined, mostStarred, mostForked, followers, following, private
