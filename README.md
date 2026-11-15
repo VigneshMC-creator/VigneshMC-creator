@@ -137,22 +137,6 @@ In professional codebases, I work on extending backend workflows and integrating
 
 ---
 
-## GitHub activity
-
-<p align="center">
-  <img src="./github-stats.png" width="100%" alt="GitHub contributions, repository statistics and public language distribution. Updated daily by GitHub Actions." />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=VigneshMC-creator&hide_border=true&theme=transparent" height="165" alt="GitHub contribution streak" />
-</p>
-
-<p align="center">
-  <sub>Activity, repository and language statistics are generated in this repository and refreshed daily with GitHub Actions.</sub>
-</p>
-
----
-
 ## Connect
 
 I'm interested in .NET backend development, full-stack application development, API design, data access patterns and maintainable software architecture.
