@@ -140,16 +140,15 @@ In professional codebases, I work on extending backend workflows and integrating
 ## GitHub activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=VigneshMC-creator&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" height="165" alt="GitHub statistics" />
+  <img src="./github-stats.svg" width="100%" alt="GitHub contributions, repository statistics and public language distribution. Updated daily by GitHub Actions." />
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com?user=VigneshMC-creator&hide_border=true&theme=transparent" height="165" alt="GitHub contribution streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VigneshMC-creator&layout=compact&hide_border=true&theme=transparent" height="140" alt="Most used languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=VigneshMC-creator&theme=github-compact&hide_border=true" width="100%" alt="GitHub contribution activity graph" />
+  <sub>Activity, repository and language statistics are generated in this repository and refreshed daily with GitHub Actions.</sub>
 </p>
 
 ---

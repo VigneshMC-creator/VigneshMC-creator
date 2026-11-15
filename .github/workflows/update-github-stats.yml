@@ -1,0 +1,39 @@
+name: Refresh GitHub profile activity
+
+on:
+  push:
+    branches:
+      - Master
+    paths:
+      - README.md
+      - .github/workflows/update-github-stats.yml
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v6
+
+      - name: Generate GitHub activity and language statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: github-stats.svg
+          custom-title: GitHub Activity & Stats
+          colors: "#ffffff #d0d7de #0797b6 #17324d #536579"
+          max-languages: 8
+          hide-keys: joined, mostStarred, mostForked, followers, following, private
+          category-order: contributions, repositories, languages
+          border-radius: 10
+          show-border: true
+          image-width: 850
+          commit-and-push: true
+          commit-message: "chore: refresh GitHub profile statistics"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
