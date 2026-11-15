@@ -140,7 +140,7 @@ In professional codebases, I work on extending backend workflows and integrating
 ## GitHub activity
 
 <p align="center">
-  <img src="./github-stats.svg" width="100%" alt="GitHub contributions, repository statistics and public language distribution. Updated daily by GitHub Actions." />
+  <img src="./github-stats.png" width="100%" alt="GitHub contributions, repository statistics and public language distribution. Updated daily by GitHub Actions." />
 </p>
 
 <p align="center">
