@@ -137,6 +137,21 @@ In professional codebases, I work on extending backend workflows and integrating
 
 ---
 
+## GitHub activity
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" valign="middle" width="38%">
+      <img src="./developer-illustration.svg" width="245" alt="Developer writing code on a laptop" />
+    </td>
+    <td align="center" valign="middle" width="62%">
+      <img src="https://streak-stats.demolab.com?user=VigneshMC-creator&hide_border=true&theme=transparent" height="165" alt="GitHub contribution streak" />
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Connect
 
 I'm interested in .NET backend development, full-stack application development, API design, data access patterns and maintainable software architecture.
