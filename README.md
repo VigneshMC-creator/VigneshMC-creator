@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" alt="Vignesh Madhav Kumar Edara — Full Stack .NET Developer" width="100%" />
+  <img src="./profile-header.svg" alt="Vignesh Madhav Kumar Edara — Full Stack .NET Developer" width="100%" />
 </p>
 
 <p align="center">
@@ -165,5 +165,5 @@ I'm interested in .NET backend development, full-stack application development, 
 </p>
 
 <p align="center">
-  <img src="assets/profile-footer.svg" alt="Building useful software with thoughtful engineering" width="100%" />
+  <img src="./profile-footer.svg" alt="Building useful software with thoughtful engineering" width="100%" />
 </p>
