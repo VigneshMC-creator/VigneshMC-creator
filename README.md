@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./profile-header.svg" alt="Vignesh Madhav Kumar Edara — Full Stack .NET Developer" width="100%" />
+  <img src="./profile-header-animated.svg" alt="Vignesh Madhav Kumar Edara — Full Stack .NET Developer. Standing developer connected to a server rack with blinking status lights." width="100%" />
 </p>
 
 <p align="center">
