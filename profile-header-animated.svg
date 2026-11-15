@@ -38,47 +38,18 @@
     <rect x="715" y="270" width="96" height="38" rx="8" fill="#102c46" stroke="#1b6688"/><text x="763" y="295" text-anchor="middle" fill="#d8efff">AZURE</text>
   </g>
 
-  <!-- Standing developer: fixed pose, no movement -->
-  <g>
-    <!-- legs -->
-    <path d="M852 267 C850 304 845 345 841 392 L878 392 L890 306 L905 392 L943 392 C938 341 932 298 924 265Z" fill="#0b2136" stroke="#1d5876" stroke-width="2"/>
-    <path d="M841 392H880L881 401H832Q828 397 841 392ZM905 392H943Q954 397 948 401H902Z" fill="#07101d" stroke="#1d5876" stroke-width="1.5"/>
-    <!-- torso / hoodie -->
-    <path d="M856 137 C834 145 823 158 818 181 L804 257 C826 274 943 276 969 255 L950 177 C945 156 931 143 908 136 L887 151Z" fill="#102f49" stroke="#27708f" stroke-width="2"/>
-    <path d="M855 145 C865 159 900 163 916 143" fill="none" stroke="#236080" stroke-width="3"/>
-    <path d="M878 159L878 266M900 159L900 266" stroke="#1c5878" stroke-width="2"/>
-    <path d="M867 170L858 193M906 170L918 191" stroke="#55d2e7" stroke-width="2" opacity=".45"/>
-    <!-- neck -->
-    <rect x="870" y="119" width="31" height="27" rx="9" fill="#b9876c"/>
-    <!-- head -->
-    <ellipse cx="884" cy="94" rx="31" ry="38" fill="#c99779"/>
-    <path d="M853 92 C851 59 870 48 893 55 C914 60 921 79 914 100 L908 83 C890 89 874 84 860 75 L857 100Z" fill="#101a27"/>
-    <path d="M862 111Q884 126 906 110" fill="none" stroke="#855d4c" stroke-width="2" stroke-linecap="round"/>
-    <circle cx="873" cy="94" r="2.5" fill="#142435"/><circle cx="896" cy="94" r="2.5" fill="#142435"/>
-    <path d="M879 103Q884 106 889 103" fill="none" stroke="#8b5d4d" stroke-width="1.6" stroke-linecap="round"/>
-    <!-- arms reaching laptop -->
-    <path d="M829 174 C809 194 809 224 831 235 L879 221 L891 201 C875 194 856 180 845 168Z" fill="#102f49" stroke="#27708f" stroke-width="2"/>
-    <path d="M940 174 C963 184 978 203 982 222 L1000 225 L1004 241 L978 245 C960 236 943 215 924 202Z" fill="#102f49" stroke="#27708f" stroke-width="2"/>
-    <path d="M878 218Q892 218 903 225" stroke="#c99779" stroke-width="8" stroke-linecap="round"/>
-    <path d="M979 225Q988 225 997 231" stroke="#c99779" stroke-width="8" stroke-linecap="round"/>
-    <!-- laptop, open and fixed -->
-    <path d="M914 145L1015 145L1003 226L902 226Z" fill="#0b1c30" stroke="#38cce9" stroke-width="3"/>
-    <path d="M922 153L1006 153L997 217L912 217Z" fill="#082b45"/>
-    <path d="M902 226L1006 226L1023 237L915 237Z" fill="#1c4967" stroke="#4ccde9" stroke-width="2"/>
-    <g stroke="#61dcf3" stroke-width="2" fill="none">
-      <path d="M946 181L935 190L946 199M970 181L981 190L970 199M963 178L954 202"/>
-    </g>
-    <circle cx="964" cy="232" r="2" fill="#78eaff"/>
-  </g>
-
-  <!-- Fixed network cable from laptop to server rack -->
-  <path id="connection" d="M1019 231 C1050 250 1071 251 1095 232 C1110 220 1119 214 1136 215" fill="none" stroke="#16a9d3" stroke-width="4" stroke-linecap="round"/>
-  <path d="M1019 231 C1050 250 1071 251 1095 232 C1110 220 1119 214 1136 215" fill="none" stroke="#69e9ff" stroke-width="1.2" stroke-linecap="round" opacity=".55"/>
-  <circle r="5" fill="#a8f7ff">
-    <animateMotion dur="2.4s" repeatCount="indefinite" path="M1019 231 C1050 250 1071 251 1095 232 C1110 220 1119 214 1136 215"/>
+  <!-- Subtle fixed data bus feeding the server rack; only the data pulses move -->
+  <path d="M835 340 H1136" fill="none" stroke="#123a57" stroke-width="3" stroke-linecap="round"/>
+  <path d="M835 340 H1136" fill="none" stroke="#17688b" stroke-width="1" stroke-dasharray="3 10" opacity=".9"/>
+  <path d="M835 340 H1136" fill="none" stroke="#31cde9" stroke-width="1" opacity=".22"/>
+  <circle cx="875" cy="340" r="3" fill="#1d7898"/>
+  <circle cx="1000" cy="340" r="3" fill="#1d7898"/>
+  <circle cx="1090" cy="340" r="3" fill="#1d7898"/>
+  <circle r="4.5" fill="#a8f7ff">
+    <animateMotion dur="3.2s" repeatCount="indefinite" path="M835 340 H1136"/>
   </circle>
-  <circle r="3.5" fill="#2edcff">
-    <animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite" path="M1019 231 C1050 250 1071 251 1095 232 C1110 220 1119 214 1136 215"/>
+  <circle r="3" fill="#2edcff">
+    <animateMotion dur="3.2s" begin="1.6s" repeatCount="indefinite" path="M835 340 H1136"/>
   </circle>
 
   <!-- Stable server rack -->
